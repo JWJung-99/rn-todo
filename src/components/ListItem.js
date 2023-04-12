@@ -37,6 +37,7 @@ ListItem.displayName = 'ListItem';
 ListItem.propTypes = {
   item: PropTypes.object.isRequired,
   onDelete: PropTypes.func.isRequired,
+  onToggle: PropTypes.func.isRequired,
 };
 
 const styles = StyleSheet.create({
